@@ -146,6 +146,13 @@
       margin-right: 40px;
     }
   }
+
+  .card-link img {
+    vertical-align: middle;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+  }
   
   
   /* FOOTER STYLES
