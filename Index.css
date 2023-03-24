@@ -16,9 +16,14 @@
   object-fit: cover;
 }
 
-.nav-item.nav-link {
+li.nav-item a.nav-link {
   color: ghostwhite; 
 }
+
+li.nav-item:hover {
+  color:azure;
+}
+
 .bg-somecolor {
   background: var(--darkred);
 }
