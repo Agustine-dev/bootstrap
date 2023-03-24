@@ -5,12 +5,23 @@
 /* Header Class */
 .header {
      /*change text color,font & size */
-    color: white;
-    font-weight: bold;
+    font-weight: 800;
     font-family: 'serif';
-    font-size: 15px;
+    /* font-size: 15px; */
+}
+.img-fluid {
+  aspect-ratio: 1;
+  border-radius: 50%!important;
+  width: 3rem;
+  object-fit: cover;
 }
 
+.nav-item.nav-link {
+  color: ghostwhite; 
+}
+.bg-somecolor {
+  background: var(--darkred);
+}
 :root {
     --red: #ef233c;
     --darkred: #c00424;
@@ -157,18 +168,4 @@
   
   /* FOOTER STYLES
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .page-footer {
-    position: fixed;
-    right: 0;
-    bottom: 50px;
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    z-index: 1;
-  }
-  
-  .page-footer a {
-    display: flex;
-    margin-left: 4px;
-  }
   
